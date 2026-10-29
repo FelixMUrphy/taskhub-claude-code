@@ -1,0 +1,12 @@
+{
+  "name": "taskhub-notify",
+  "description": "Windows notifications from TaskHub when Claude Code finishes a response or needs your permission",
+  "version": "1.0.0",
+  "author": { "name": "FelixMUrphy", "url": "https://github.com/FelixMUrphy" },
+  "homepage": "https://github.com/FelixMUrphy/taskhub-claude-code",
+  "repository": "https://github.com/FelixMUrphy/taskhub-claude-code",
+  "license": "PolyForm-Shield-1.0.0",
+  "privacyPolicyUrl": "https://github.com/FelixMUrphy/taskhub-claude-code#privacy",
+  "icon": ".claude-plugin/icon.png",
+  "keywords": ["notifications", "windows", "taskhub", "hooks"]
+}

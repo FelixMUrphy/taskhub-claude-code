@@ -1,0 +1,12 @@
+{
+  "name": "taskhub",
+  "description": "TaskHub integrations for Claude Code",
+  "owner": { "name": "FelixMUrphy", "url": "https://github.com/FelixMUrphy" },
+  "plugins": [
+    {
+      "name": "taskhub-notify",
+      "source": "./",
+      "description": "Windows notifications from TaskHub when Claude Code finishes a response or needs your permission"
+    }
+  ]
+}
