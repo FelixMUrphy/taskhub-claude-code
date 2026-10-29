@@ -9,13 +9,18 @@ Start a long task, switch to something else, and come back when the toast pops u
 [**TaskHub**](https://github.com/FelixMUrphy/TaskHub), a small Windows tray app for long-running jobs and AI agents.
 
 ## Install
+**Easiest:** install [TaskHub](https://github.com/FelixMUrphy/TaskHub/releases/latest) 2.3.0 or newer and keep
+*Notify me when Claude Code finishes…* ticked in its setup dialog (or tray menu → *AI agent notifications*).
+No plugin needed.
+
+**Or as a plugin** (e.g. to share it through a marketplace):
 1. Install TaskHub 2.1.0 or newer: [download the setup.exe](https://github.com/FelixMUrphy/TaskHub/releases/latest).
 2. In Claude Code:
    ```
    /plugin marketplace add FelixMUrphy/taskhub-claude-code
    /plugin install taskhub-notify@taskhub
    ```
-3. Restart Claude Code. Done.
+3. Restart Claude Code. Done. (Use one of the two ways, not both, or you get every notification twice.)
 
 No scripts, no PowerShell, nothing to configure: the plugin only contains two
 [HTTP hooks](https://code.claude.com/docs/en/hooks) (`Stop` and `Notification` for `permission_prompt|elicitation_dialog`)
