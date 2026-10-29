@@ -10,8 +10,9 @@ Start a long task, switch to something else, and come back when the toast pops u
 
 ## Install
 **Easiest:** install [TaskHub](https://github.com/FelixMUrphy/TaskHub/releases/latest) 2.3.0 or newer and keep
-*Notify me when Claude Code finishes…* ticked in its setup dialog (or tray menu → *AI agent notifications*).
-No plugin needed.
+*Notify me when Claude Code finishes…* ticked in its setup dialog (or tray menu → *AI agents*). No plugin needed.
+TaskHub 2.4+ can also give Claude Code its own TaskHub tools (MCP) so it shows long jobs in the panel by itself —
+another checkbox in the same place.
 
 **Or as a plugin** (e.g. to share it through a marketplace):
 1. Install TaskHub 2.1.0 or newer: [download the setup.exe](https://github.com/FelixMUrphy/TaskHub/releases/latest).
